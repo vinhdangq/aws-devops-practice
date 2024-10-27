@@ -7,8 +7,6 @@ It provides:
 
 **This project is intended for educational purposes only and not for production use.**
 
-![Screenshot](/docs/images/screenshot.png)
-
 ## Application Architecture
 
 The application has been deliberately over-engineered to generate multiple de-coupled components. These components generally have different infrastructure dependencies, and may support multiple "backends" (example: Carts service supports MongoDB or DynamoDB).
@@ -56,5 +54,6 @@ To remove the application use `kubectl` again:
 kubectl delete -f https://raw.githubusercontent.com/aws-containers/retail-store-sample-app/main/dist/kubernetes/deploy.yaml
 ```
 ## References
-https://www.eksworkshop.com/docs/introduction/getting-started/about
-https://developer.hashicorp.com/terraform/tutorials/kubernetes/eks
+- [Link](https://www.eksworkshop.com/docs/introduction/getting-started/about)
+- [Link](https://developer.hashicorp.com/terraform/tutorials/kubernetes/eks)
+- [Link](https://github.com/aws-containers/retail-store-sample-app)
